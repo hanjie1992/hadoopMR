@@ -49,8 +49,8 @@ public class LianJiaData{
 
     }
     public static void main(String args[]) throws Exception{
-        String icIn = "E:\\workspace\\hadoop\\src\\main\\data\\house_data.txt";
-        String out = "G:\\house_data";
+        String icIn = "D:\\workspace\\hadoop\\src\\main\\data\\house_data.txt";
+        String out = "D:\\OUTPUT\\house_data";
 
         Configuration conf  = new Configuration();
         conf.set("mapreduce.framework.name","local");

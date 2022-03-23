@@ -111,8 +111,8 @@ public class star extends Configured implements Tool {
         return 0;
     }
     public static void main(String[] args) throws Exception {
-        String icIn = "E:\\workspace\\hadoop\\src\\main\\data\\actor.txt";
-        String out = "G:\\actordata";
+        String icIn = "D:\\workspace\\hadoop\\src\\main\\data\\actor.txt";
+        String out = "D:\\actordata";
         String[] args0 = {icIn, out};
 
         int ec = ToolRunner.run(new Configuration(), new star(), args0);
